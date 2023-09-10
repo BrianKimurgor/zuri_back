@@ -7,12 +7,12 @@ module.exports.getJSONData = function() {
 
   // Construct the response JSON
   const responseData = {
-    slack_name: 'example_name',
+    slack_name: 'Brian Kimurgor',
     current_day: currentDay,
     utc_time: currentUTCTime,
     track: 'backend',
-    github_file_url: 'https://github.com/username/repo/blob/main/file_name.ext',
-    github_repo_url: 'https://github.com/username/repo',
+    github_file_url: 'https://github.com/BrianKimurgor/zuri_back/blob/master/api/index.js',
+    github_repo_url: 'https://github.com/BrianKimurgor/zuri_back',
     status_code: 200,
   };
 
